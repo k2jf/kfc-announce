@@ -99,8 +99,8 @@ export default {
         content: this.searchContent || undefined
       }
       getAnnounces(params).then(data => {
-        this.table.dataList = data.data.list
-        this.table.total = data.data.total
+        this.table.dataList = data.list
+        this.table.total = data.total
       })
     },
 

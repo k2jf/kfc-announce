@@ -28,8 +28,8 @@ export default {
   },
   created () {
     getEffectiveAnnounce().then(data => {
-      for (let i = 0; i < data.data.length; i++) {
-        this.messageList.push(i + 1 + '.' + ' ' + data.data[i].content)
+      for (let i = 0; i < data.list.length; i++) {
+        this.messageList.push(i + 1 + '.' + ' ' + data.list[i].content)
       }
     })
   }
