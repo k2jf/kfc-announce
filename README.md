@@ -20,7 +20,20 @@ Since this project contains two components, namely a **manager** and a
   ### the manager 
   *the manager* provides a view to manage announces.
   
-```js
+```vue
+<template>
+  <AnnounceManager />  <!-- yes, you ONLY need that -->
+</template>
+
+<script>
+import AnnounceManager from '@/components/kfc-announce/manager'
+export default {
+  name: 'Home',
+  components: {
+    AnnounceManager
+  }
+}
+</script>
 
 ```
   

@@ -1,3 +1,3 @@
-import Manager from './manager'
+import Manager from './Manager'
 
 export default Manager

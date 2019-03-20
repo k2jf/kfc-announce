@@ -33,10 +33,10 @@
 
 <script>
 import { Button, Input } from 'iview'
-import Md4xTable from '../components/md4x-table'
-import AddModal from './modalAddAnnounce'
-import DelModal from './modalDelAnnounce'
-import DateTimeWrapper from '../components/date-time-wrapper'
+import Md4xTable from '../components/Md4xTable'
+import AddModal from './ModalAddAnnounce'
+import DelModal from './ModalDelAnnounce'
+import DateTimeWrapper from '../components/DateTimeWrapper'
 import { getAnnounces } from '../api'
 
 export default {
