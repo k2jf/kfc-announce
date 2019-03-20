@@ -41,8 +41,23 @@ export default {
   *the display* provides a floating bar to display announces. Note that the position
   as well as the width **should be specified by user** using pure css. 
 
-```js
+```vue
+<template>
+  <div>
+    <AnnounceDisplay style="..."/>
+  </div>
+</template>
 
+<script>
+import AnnounceDisplay from '@/components/kfc-announce/display'
+
+export default {
+  name: 'Home',
+  components: {
+    AnnounceDisplay
+  }
+}
+</script>
 ```
 
 ## limitation
